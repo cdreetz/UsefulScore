@@ -1,0 +1,10 @@
+Successfully installed 
+Flask-2.2.3 
+Werkzeug-2.2.3 
+dash-2.8.1 
+dash-core-components-2.0.0 
+dash-html-components-2.0.0 
+dash-table-5.0.0 
+itsdangerous-2.1.2 
+plotly-5.13.1 
+tenacity-8.2.1

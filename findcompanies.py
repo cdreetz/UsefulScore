@@ -26,7 +26,8 @@ class StackScraper(Bot):
             "facebook",
             "tesla",
             "amazon",
-            "UT Health Science Center at San Antonio"
+            "UT Health Science Center at San Antonio",
+            #"HEB"
         ]
         shuffle(role_names)
         self.driver.get("https://www.google.com")
