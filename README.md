@@ -13,3 +13,18 @@ There are two main components required to accomplish this.  First the UTSA catal
 
 ### Part 2
 Once the department program and course catalog has been processed with spaCy's nlp function, the same will be applied to relevant job posts and descriptions.  The type of jobs we want to compare are ones like Data Scientist, Data Analyst, Predictive Modeling, and possibly Business Analyst and Data Engingeer.
+
+
+
+The 4 columns in the Pandas DataFrame "df" are:
+
+"id" - This column contains the job ID, which is a unique identifier for each job.
+
+"role" - This column contains the role name, which specifies the job position such as "data scientist", "data analyst", "data engineer", or "machine learning engineer".
+
+"company" - This column contains the name of the company that posted the job.
+
+"description" - This column contains the job description, which provides details about the responsibilities, requirements, and qualifications for the job.
+
+
+phrases = ["Excel", "SQL", "R", "data mining", "python", "java", "machine learning", "ML", "natural language processing", "NLP", "deep learning", "data analytics", "predictive modeling", "forecasting", "business", "statistical analysis", "KPI", "artificial intelligence", "AI", "statistical modeling", "data management", "algorithms", "automation", "TensorFlow", "PyTorch", "big data", "SAS", "survival analysis", "time series", "inference", "Power BI", "Tableau"]
